@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ремонт холодильників у Хмельницькому – Майстер Микола</title>
+
+<meta name="description" content="Терміновий ремонт холодильників, морозильних камер та кондиціонерів у Хмельницькому. Виїзд за 1 годину. Телефон: 0686999636">
+
+<style>
+body { font-family: Arial; margin:0; background:#f4f6f9;}
+header { background:linear-gradient(90deg,#0d6efd,#00b4d8); color:#fff; padding:30px; text-align:center;}
+.logo { font-size:30px; font-weight:bold;}
+.container { max-width:900px; margin:auto; padding:20px;}
+.card { background:#fff; padding:20px; margin:15px 0; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.btn { display:block; text-align:center; padding:15px; border-radius:10px; color:#fff; text-decoration:none; margin-top:10px; font-size:18px;}
+.green { background:#28a745;}
+.blue { background:#0d6efd;}
+.telegram { background:#0088cc;}
+.phone { font-size:26px; text-align:center; font-weight:bold;}
+.review { background:#f1f1f1; padding:10px; border-radius:8px; margin:10px 0;}
+footer { background:#222; color:#fff; text-align:center; padding:15px;}
+input,button { width:100%; padding:10px; margin-top:10px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🔧 Майстер Микола</div>
+<h1>Ремонт холодильників та кондиціонерів</h1>
+<p>Хмельницький • Виїзд за 1 годину • Без вихідних</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<p class="phone">📞 068 699 96 36</p>
+<a href="tel:0686999636" class="btn green">Зателефонувати</a>
+<a href="viber://chat?number=380686999636" class="btn blue">Viber</a>
+<a href="https://t.me/" class="btn telegram">Telegram</a>
+</div>
+
+<div class="card">
+<h2>🔥 Терміновий виклик майстра</h2>
+<p>Приїду протягом 1 години по Хмельницькому. Діагностика та ремонт на місці.</p>
+</div>
+
+<div class="card">
+<h2>Наші послуги</h2>
+<ul>
+<li>Ремонт холодильників</li>
+<li>Ремонт морозильних камер</li>
+<li>Ремонт кондиціонерів</li>
+<li>Заправка фреоном</li>
+<li>Заміна компресора</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Відгуки клієнтів</h2>
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Дуже швидко приїхав і полагодив холодильник</div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Все працює, рекомендую майстра</div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Адекватні ціни і якісна робота</div>
+</div>
+
+<div class="card">
+<h2>Ми на карті</h2>
+<iframe src="https://maps.google.com/maps?q=Хмельницький&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250"></iframe>
+</div>
+
+<div class="card">
+<h2>Залишити заявку</h2>
+<form onsubmit="sendMsg(event)">
+<input type="text" id="name" placeholder="Ім’я" required>
+<input type="tel" id="phone" placeholder="Телефон" required>
+<button class="btn green">Відправити</button>
+</form>
+</div>
+
+<div class="card">
+<h2>Ремонт холодильників у Хмельницькому</h2>
+<p>Професійний ремонт холодильників, морозильних камер і кондиціонерів у Хмельницькому. Працюємо швидко, якісно та з гарантією. Виклик майстра можливий у будь-який район міста.</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Майстер Микола
+</footer>
+
+<script>
+function sendMsg(e){
+e.preventDefault();
+let n=document.getElementById('name').value;
+let p=document.getElementById('phone').value;
+let t=`Нова заявка:%0AІм’я: ${n}%0AТелефон: ${p}`;
+window.location.href=`viber://forward?text=${t}`;
+}
+</script>
+
+</body>
+</html>
